@@ -11,7 +11,7 @@ use NoriaLabs\Send\Resources\ApiKeys;
 use NoriaLabs\Send\Resources\Domains;
 use NoriaLabs\Send\Resources\Emails;
 use NoriaLabs\Send\Resources\Messages;
-use NoriaLabs\Send\Resources\Projects;
+use NoriaLabs\Send\Resources\Workspaces;
 use NoriaLabs\Send\Resources\Senders;
 use NoriaLabs\Send\Resources\Sms;
 use NoriaLabs\Send\Resources\Suppressions;
@@ -83,9 +83,9 @@ class Send
         return new Webhooks($this);
     }
 
-    public function projects(): Projects
+    public function workspaces(): Workspaces
     {
-        return new Projects($this);
+        return new Workspaces($this);
     }
 
     public function apiKeys(): ApiKeys

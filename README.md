@@ -43,7 +43,7 @@ delivery, and two retries are about a service restart rather than a bounce.
 
 That is the whole email integration. Every `Mail::send()`, `Mail::to()->queue()`, notification
 and mailable in the application now goes through the service and gets queueing, retries,
-suppression, delivery events and per-project isolation without touching a call site.
+suppression, delivery events and per-workspace isolation without touching a call site.
 
 ## SMS
 

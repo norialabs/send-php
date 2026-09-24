@@ -2,7 +2,7 @@
 
 namespace NoriaLabs\Send\Resources;
 
-class Projects extends Resource
+class Workspaces extends Resource
 {
     /**
      * An API key reaches exactly one.
@@ -11,6 +11,6 @@ class Projects extends Resource
      */
     public function list(): array
     {
-        return $this->send->request('GET', '/v1/projects');
+        return $this->send->request('GET', '/v1/workspaces');
     }
 }
