@@ -11,12 +11,12 @@ use NoriaLabs\Send\Resources\ApiKeys;
 use NoriaLabs\Send\Resources\Domains;
 use NoriaLabs\Send\Resources\Emails;
 use NoriaLabs\Send\Resources\Messages;
-use NoriaLabs\Send\Resources\Workspaces;
 use NoriaLabs\Send\Resources\Senders;
 use NoriaLabs\Send\Resources\Sms;
 use NoriaLabs\Send\Resources\Suppressions;
 use NoriaLabs\Send\Resources\Templates;
 use NoriaLabs\Send\Resources\Webhooks;
+use NoriaLabs\Send\Resources\Workspaces;
 
 class Send
 {
